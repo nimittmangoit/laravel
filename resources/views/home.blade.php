@@ -7,14 +7,14 @@
             <div class="card">
 
                 <div class="card-body">
-                    
+
                     @if (session('status'))
                     <div class="alert alert-success" role="alert">
                         {{ session('status') }}
                     </div>
                     @endif
                     <h2>
-                        Welcome ,  {{ Auth::user()->name }}
+                        Welcome to Laravel ,  {{ Auth::user()->name }}
                     </h2>
 
                     <br><br>
